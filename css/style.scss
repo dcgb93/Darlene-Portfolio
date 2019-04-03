@@ -344,6 +344,7 @@ p{
 
 	.hero-img{
 		position: relative;
+		
 
 		&:after{
 			content: "";
@@ -360,9 +361,11 @@ p{
 		img{
 			position: relative;
 			z-index: 9;
+		
 		}
 	}
 
+	
 	.hero-content{
 
 		.info{

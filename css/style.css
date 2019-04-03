@@ -218,6 +218,7 @@ p {
   float: left;
   padding-top: 15px;
   font-family: "vermin vibes", sans-serif;
+  size: 10px;
 }
 
 /* -------------------------------------------------------
@@ -227,9 +228,13 @@ p {
   height: 100vh;
   width: 100%;
   position: relative;
-  background-image: url(../img/bg.jpg);
+  background-image: url('https://s.newsweek.com/sites/www.newsweek.com/files/styles/lg/public/2017/09/12/coding-schools-2017.jpg');
   background-attachment: fixed;
   background-size: cover;
+}
+
+.logo img {
+  width: 80px;
 }
 .header:after {
   content: "";
@@ -995,6 +1000,7 @@ p {
   color: #555;
 }
 
+
 .side-bar {
   padding-left: 15px;
 }
@@ -1154,7 +1160,7 @@ p {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background-image: url('https://images3.alphacoders.com/830/thumb-1920-83067.jpg');
   z-index: 1;
 }
 .contact .container {
