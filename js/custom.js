@@ -180,7 +180,7 @@ $(window).on("load",function (){
 
     $('#contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "contact.php";
+            var url = "https://mailthis.to/dcgb93@gmail.com";
 
             $.ajax({
                 type: "POST",
@@ -204,3 +204,7 @@ $(window).on("load",function (){
 
 });
 
+
+$(".submit").click(function(){
+    alert("Thank you! Your message has been sent successfully.");
+  });
